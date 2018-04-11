@@ -4,6 +4,11 @@ title: 日本語
 permalink: /ja
 ---
 
+初めまして。  
+リオン・バイフォードです。  
+イギリスからのプログラマーです。  
+よろしくお願いします。
+
 ## メール
 
 leon (アットマーク) ldjb (点) zendesk (点) com
@@ -16,7 +21,7 @@ leon (アットマーク) ldjb (点) zendesk (点) com
 
 ### [中央のポンギー](http://ldjb.github.io/pongy/)
 
-HTML CanvasとJavaScriptゲーム.
+HTML CanvasとJavaScriptゲーム。
 
 ### UniMatch
 
