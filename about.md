@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-### Contact me
+### Email me
 
 leon AT ldjb DOT zendesk DOT com
