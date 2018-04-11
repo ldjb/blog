@@ -9,20 +9,20 @@ layout: page
 
 [英語ブログに行く→](/)
 
-## メール
+### メール
 
 leon (アットマーク) ldjb (点) zendesk (点) com
 
-## プロジェクト
+### プロジェクト
 
-### [スパイダーリリー翻訳](http://www.spiderlilytranslations.com/)
+#### [スパイダーリリー翻訳](http://www.spiderlilytranslations.com/)
 
 07th Expansionの同人ソフト「彼岸花の咲くよるに」の英語翻訳。
 
-### [中央のポンギー](http://ldjb.github.io/pongy/)
+#### [中央のポンギー](http://ldjb.github.io/pongy/)
 
 HTML CanvasとJavaScriptゲーム。
 
-### UniMatch
+#### UniMatch
 
 イギリスにの大学を捜し求めるのサイト。
