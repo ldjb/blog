@@ -6,7 +6,7 @@ permalink: /about
 
 ## Email me
 
-leon AT ldjb DOT zendesk DOT com
+leon (at) ldjb (dot) zendesk (dot) com
 
 ## Things I have worked on
 
