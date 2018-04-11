@@ -1,7 +1,5 @@
 ---
 layout: page
-title: 日本語
-permalink: /ja
 ---
 
 初めまして。  
