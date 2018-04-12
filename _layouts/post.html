@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
   <div class="date">
-    {{ page.date | date: "%A %-d %B %Y" }}
+    {{ page.date | date: "%A" }} {{ page.date | date_to_long_string: "ordinal" }}
   </div>
   <h2>{{ page.title }}</h2>
   
