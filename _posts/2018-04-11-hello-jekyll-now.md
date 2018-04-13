@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello, Jekyll Now!
+tags: [meta, technology]
 excerpt_separator: <!-- more -->
 ---
 
