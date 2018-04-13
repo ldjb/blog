@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A look back at the Golden Age of Detective Fiction
+tags: [books]
 excerpt_separator: <!-- more -->
 ---
 
