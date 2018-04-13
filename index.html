@@ -23,7 +23,7 @@ layout: default
 		{% assign numTags = post.tags | size %}
 		{% if numTags > 0 %}
 		in
-		{% for i in (1..numTags) %}{% assign index = i | minus: 1 %}{% if i > 1 %}, {% endif %}<a href="{{site.baseurl}}tags#{{post.tags[index]|uri_escape}}">{{post.tags[index]}}</a>{% endfor %}
+		{% for i in (1..numTags) %}{% assign index = i | minus: 1 %}{% if i > 1 %}, {% endif %}<a href="{{site.baseurl}}tag#{{post.tags[index]|uri_escape}}">{{post.tags[index]}}</a>{% endfor %}
 		{% endif %}
       </div>
       

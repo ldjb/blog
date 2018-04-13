@@ -16,7 +16,7 @@ layout: default
     {% assign numTags = page.tags | size %}
     {% if numTags > 0 %}
     in
-    {% for i in (1..numTags) %}{% assign index = i | minus: 1 %}{% if i > 1 %}, {% endif %}<a href="{{site.baseurl}}tags#{{page.tags[index]|uri_escape}}">{{page.tags[index]}}</a>{% endfor %}
+    {% for i in (1..numTags) %}{% assign index = i | minus: 1 %}{% if i > 1 %}, {% endif %}<a href="{{site.baseurl}}tag#{{page.tags[index]|uri_escape}}">{{page.tags[index]}}</a>{% endfor %}
     {% endif %}
   </div>
   <h2>{{ page.title }}</h2>
