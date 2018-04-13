@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="{% if post.date > site.time %}future {% endif %}post" data-pubdate="{{post.date|date: "%F"}}">
       
       <div class="date">
         {{ post.date | date: "%A" }}
@@ -28,3 +28,9 @@ layout: default
     </article>
   {% endfor %}
 </div>
+<script>
+document.querySelectorAll("article.future.post").forEach(
+	post => {post.dataset.pubdate <= new Date().toISOString()
+		&& (post.style.display = "inherit");}
+);
+</script>

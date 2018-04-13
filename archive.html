@@ -5,6 +5,12 @@ title: Archive
 
 <ul>
 {% for post in site.posts %}
-  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
+  <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F" }})</li>
 {% endfor %}
 </ul>
+<script>
+document.querySelectorAll("li.future").forEach(
+	post => {post.dataset.pubdate <= new Date().toISOString()
+		&& (post.style.display = "list-item");}
+);
+</script>
