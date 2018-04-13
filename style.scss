@@ -255,6 +255,10 @@ nav {
   border-bottom: none;
 }
 
+.posts > .post:not(:first-child) {
+  padding-top: 2em;
+}
+
 .post {
   blockquote {
     margin: 1.8em .8em;
