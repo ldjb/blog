@@ -4,6 +4,10 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
+  	{% if post.date <= site.time %}
+  		{% capture x %}{% increment numPublishedPosts %}{% endcapture %}
+  	{% endif %}
+  	{% if numPublishedPosts > 10 %}{% break %}{% endif %}
     <article class="{% if post.date > site.time %}future {% endif %}post" data-pubdate="{{post.date|date: "%F"}}">
       
       <div class="date">
@@ -34,3 +38,8 @@ document.querySelectorAll("article.future.post").forEach(
 		&& (post.style.display = "inherit");}
 );
 </script>
+{% if numPublishedPosts > 10 %}
+<div id="archive-link">
+	<a href="{{ site.baseurl }}{% link archive.html %}">Find older posts in the archive</a>
+</div>
+{% endif %}
