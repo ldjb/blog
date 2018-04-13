@@ -298,8 +298,12 @@ div#archive-link {
 	text-align: center;
 }
 
+div.tag-posts {
+	display: none;
+}
+
 div.tag-posts:target {
-	background-color: $ldjbDarkerBlue;
+	display: inherit;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
