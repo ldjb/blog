@@ -17,7 +17,7 @@ layout: default
   <h2>{{ page.title }}</h2>
   
   <div class="entry">
-    {{ content }}
+    {{ content | replace: '<!-- more -->', '<div id="more"></div>' }}
   </div>
 
   {% include disqus.html %}
