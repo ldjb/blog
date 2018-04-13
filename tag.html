@@ -14,6 +14,10 @@ layout: page
 </ul>
 </div>
 {% endfor %}
+<div id="tag-default">
+<h2>Tag not found</h2>
+<p>A tag was not specified or it was not found. Try going <a href="/{{site.baseurl}}">back to the homepage</a>.</p>
+</div>
 <script>
 document.querySelectorAll("li.future").forEach(
 	post => {post.dataset.pubdate <= new Date().toISOString()
