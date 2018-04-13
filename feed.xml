@@ -1,0 +1,25 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<link href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="self" type="application/atom+xml" />
+<link href="{{ site.url }}{{ site.baseurl }}" rel="alternate" type="text/html" />
+<updated>{{ site.time | date: "%FT%TZ" }}</updated>
+<id>{{ site.url }}{{ site.baseurl }}</id>
+<title type="html">{{ site.name }}</title>
+<subtitle>{{ site.description }}</subtitle>
+{% for post in site.posts %}
+	{% if post.date <= site.time %}
+	<entry>
+	<title type="html">{{ post.title }}</title>
+	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
+	<published>{{ post.date | date: "%FT%TZ" }}</published>
+	<updated>{{ post.date | date: "%FT%TZ" }}</updated>
+	<id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
+	<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.content | escape }}</content>
+	<author><name>{{ site.name }}</name></author>
+	<summary type="html">{{ post.excerpt | escape }}</summary>
+	</entry>
+	{% endif %}
+{% endfor %}
+</feed>
