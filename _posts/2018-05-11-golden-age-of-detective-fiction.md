@@ -1,14 +1,14 @@
 ---
 layout: post
 title: A look back at the Golden Age of Detective Fiction
-excerpt_separator: <div id="more"></div>
+excerpt_separator: <!-- more -->
 ---
 
 *I am a big fan of detective fiction and recently discussed the genre with some of my friends. The following is adapted from what I wrote in that discussion, and I am publishing it for posterity.*
 
 The 1920s and 1930s are termed the Golden Age of Detective Fiction, during which a great number of works from Agatha Christie and her contemporaries were published.
 
-<div id="more"></div>
+<!-- more -->
 
 Detective fiction had gradually become increasingly popular in the previous decades, Arthur Conan Doyle's Sherlock Holmes stories being notable examples of fiction created during this period.
 

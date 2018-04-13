@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Hello, Jekyll Now!
-excerpt_separator: <div id="more"></div>
+excerpt_separator: <!-- more -->
 ---
 
 *This is an updated version of a previously published post.*
 
 Once again, I am attempting to write a blog. I've attempted to do so several times before, with varying degrees of success. Here are some of the services I've tried, what they did well, and what I didn't like about them.
 
-<div id="more"></div>
+<!-- more -->
 
 ### Wordpress
 
