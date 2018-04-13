@@ -248,15 +248,12 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $ldjbDarkerBlue;
+  margin-bottom: 2em;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-}
-
-.posts > .post:not(:first-child) {
-  padding-top: 2em;
 }
 
 .post {
