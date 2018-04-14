@@ -9,7 +9,7 @@ addEventListener("keydown", e => {
 	lastTenKeys.push(e.key);
 	if (JSON.stringify(lastTenKeys) == JSON.stringify(konamiCode)) {
 		document.querySelectorAll(".future").forEach(
-			post => {post.style.display = "{{include.display|default:"list-item"}}";}
+			post => {post.style.display = "{{include.display|default:"block"}}";}
 		);
 	}
 });
