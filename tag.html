@@ -6,13 +6,39 @@ layout: page
 {% assign thisTag = tag | first %}
 <div id="{{thisTag|uri_escape}}" class="fake-target"></div>
 <div class="tag-posts">
-<h2>Posts tagged with {{thisTag}}</h2>
-<ul>
+<p style="font-style: italic;">Posts tagged <b>{{thisTag}}</b>:</p>
+<div class="posts">
 {% assign thisTagsPosts = site.posts | where_exp: "post", "post.tags contains thisTag" %}
 {% for post in thisTagsPosts %}
-<li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F" }})</li>
+    <article class="{% if post.date > site.time %}future {% endif %}post" data-pubdate="{{post.date|date: "%F"}}">
+      
+      <div class="date">
+        {{ post.date | date: "%A" }}
+        {% assign d = post.date | date: "%-d" %}
+        {% case d %}
+          {% when "1" or "21" or "31" %}{{ d }}<sup>st</sup>
+          {% when "2" or "22" %}{{ d }}<sup>nd</sup>
+          {% when "3" or "23" %}{{ d }}<sup>rd</sup>
+          {% else %}{{ d }}<sup>th</sup>
+        {% endcase %}
+        {{ post.date | date: "%B %Y" }}
+		{% assign numTags = post.tags | size %}
+		{% if numTags > 0 %}
+		in
+		{% for i in (1..numTags) %}{% assign index = i | minus: 1 %}{% if i > 1 %}, {% endif %}<a href="{{site.baseurl}}tag#{{post.tags[index]|uri_escape}}">{{post.tags[index]}}</a>{% endfor %}
+		{% endif %}
+      </div>
+      
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}#more" class="read-more">Read More</a>
+    </article>
 {% endfor %}
-</ul>
+</div>
 </div>
 {% endfor %}
 <div id="tag-default">
@@ -20,5 +46,5 @@ layout: page
 <p>A tag was not specified or it was not found. Try going <a href="/{{site.baseurl}}">back to the homepage</a>.</p>
 </div>
 <script>
-{% include future.js %}
+{% include future.js display="block" %}
 </script>
