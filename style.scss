@@ -302,12 +302,18 @@ div.tag-posts {
 	display: none;
 }
 
-div.tag-posts:target {
+:target+div.tag-posts {
 	display: inherit;
 }
 
-div.tag-posts:target ~ #tag-default {
+:target~#tag-default {
 	display: none;
+}
+
+div.fake-target {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

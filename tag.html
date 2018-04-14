@@ -4,7 +4,8 @@ layout: page
 {% assign sortedTags = site.tags | sort %}
 {% for tag in sortedTags %}
 {% assign thisTag = tag | first %}
-<div class="tag-posts" id="{{thisTag|uri_escape}}">
+<div id="{{thisTag|uri_escape}}" class="fake-target"></div>
+<div class="tag-posts">
 <h2>Posts tagged with {{thisTag}}</h2>
 <ul>
 {% assign thisTagsPosts = site.posts | where_exp: "post", "post.tags contains thisTag" %}
