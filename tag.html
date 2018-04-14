@@ -19,19 +19,5 @@ layout: page
 <p>A tag was not specified or it was not found. Try going <a href="/{{site.baseurl}}">back to the homepage</a>.</p>
 </div>
 <script>
-document.querySelectorAll("li.future").forEach(
-	post => {post.dataset.pubdate <= new Date().toISOString()
-		&& (post.style.display = "list-item");}
-);
-var lastTenKeys = [null, null, null, null, null, null, null, null, null, null];
-var konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
-addEventListener("keydown", e => {
-	lastTenKeys.shift();
-	lastTenKeys.push(e.key);
-	if (JSON.stringify(lastTenKeys) == JSON.stringify(konamiCode)) {
-		document.querySelectorAll("li.future").forEach(
-			post => {post.style.display = "list-item";}
-		);
-	}
-});
+{% include future.js %}
 </script>
