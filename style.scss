@@ -310,19 +310,19 @@ div.tag-posts {
 	display: none;
 }
 
-div.fake-target, #uuddlrlrba {
+div.fake-target, #{{site.fun}} {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-div#uuddlrlrba:target ~ div.posts article.future,
-div#uuddlrlrba:target ~ div.tag-posts,
-div#uuddlrlrba:target ~ div.tag-posts div.posts article.future {
+div#{{site.fun}}:target ~ div.posts article.future,
+div#{{site.fun}}:target ~ div.tag-posts,
+div#{{site.fun}}:target ~ div.tag-posts div.posts article.future {
 	display: block;
 }
 
-div#uuddlrlrba:target ~ ul li.future {
+div#{{site.fun}}:target ~ ul li.future {
 	display: list-item;
 }
 
