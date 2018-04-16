@@ -9,4 +9,4 @@ title: Archive
   <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F" }})</li>
 {% endfor %}
 </ul>
-{% include future.js display="list-item" %}
+{% include future.js %}
