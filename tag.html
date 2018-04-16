@@ -2,8 +2,7 @@
 layout: page
 ---
 <div id="{{site.fun}}"></div>
-{% assign sortedTags = site.tags | sort %}
-{% for tag in sortedTags %}
+{% for tag in site.tags %}
 {% assign thisTag = tag | first %}
 <div id="{{thisTag|uri_escape}}" class="fake-target"></div>
 <div class="tag-posts">
