@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div id="uuddlrlrba"></div>
 <div class="posts">
   {% for post in site.posts %}
   	{% if post.date <= site.time %}
@@ -11,9 +11,7 @@ layout: default
   	{% include article-preview.html %}
   {% endfor %}
 </div>
-<script>
 {% include future.js %}
-</script>
 {% if numPublishedPosts > 10 %}
 <div id="archive-link">
 	<a href="{{ site.baseurl }}{% link archive.html %}">Find older posts in the archive</a>

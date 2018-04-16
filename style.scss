@@ -310,10 +310,20 @@ div.tag-posts {
 	display: none;
 }
 
-div.fake-target {
+div.fake-target, #uuddlrlrba {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+div#uuddlrlrba:target ~ div.posts article.future,
+div#uuddlrlrba:target ~ div.tag-posts,
+div#uuddlrlrba:target ~ div.tag-posts div.posts article.future {
+	display: block;
+}
+
+div#uuddlrlrba:target ~ ul li.future {
+	display: list-item;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

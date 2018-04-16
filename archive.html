@@ -3,11 +3,10 @@ layout: page
 title: Archive
 ---
 
+<div id="uuddlrlrba"></div>
 <ul>
 {% for post in site.posts %}
   <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F" }})</li>
 {% endfor %}
 </ul>
-<script>
 {% include future.js display="list-item" %}
-</script>
