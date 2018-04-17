@@ -23,6 +23,6 @@ leon (アットマーク) ldjb (点) zendesk (点) com
 
 HTML CanvasとJavaScriptゲーム。
 
-#### UniMatch
+#### [UniMatch](https://github.com/ldjb/unimatch)
 
 イギリスにの大学を捜し求めるのサイト。

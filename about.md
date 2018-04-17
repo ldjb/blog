@@ -18,6 +18,6 @@ A fan project to create an English language translation of Japanese visual novel
 
 A simple browser game created using HTML Canvas and JavaScript.
 
-#### UniMatch
+#### [UniMatch](https://github.com/ldjb/unimatch)
 
 A website for searching and filtering courses at UK universities.
