@@ -11,8 +11,8 @@
 {% for post in site.posts %}
 	{% if post.date <= site.time %}
 	<entry>
-	<title type="html">{{ post.title }}</title>
-	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
+	<title type="html">{{ post.title | escape }}</title>
+	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | escape }}" />
 	<published>{{ post.date | date: "%FT%TZ" }}</published>
 	<updated>{{ post.date | date: "%FT%TZ" }}</updated>
 	<id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
