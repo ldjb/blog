@@ -296,6 +296,22 @@ footer {
   display: none;
 }
 
+a#skip-nav {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+a#skip-nav:focus {
+	background: #ff0;
+	border: 0.25em dashed #f00;
+	height: inherit;
+	padding: 1em;
+}
+
 /*** / ***/
 div#archive-link {
 	background-color: $ldjbDarkerBlue;
