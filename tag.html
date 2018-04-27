@@ -1,20 +1,29 @@
 ---
 layout: page
 ---
-<div id="{{site.fun}}"></div>
 {% for tag in site.tags %}
 {% assign thisTag = tag | first %}
-<div id="{{thisTag|uri_escape}}" class="fake-target"></div>
-<div class="tag-posts">
-<p style="font-style: italic;">Posts tagged <b>{{thisTag}}</b>:</p>
+<style>
+.tag-{{thisTag|slugify}} {
+	display: none;
+}
+div#{{thisTag|slugify}}:target ~ p.tag-{{thisTag|slugify}}, div#{{thisTag|slugify}}:target ~ div.posts article.tag-{{thisTag|slugify}}:not(.future) {
+	display: inherit;
+}
+
+div#{{thisTag|slugify}}:target ~ div.posts article div.date a[href="tag#{{thisTag|slugify}}"] {
+	color: inherit;
+	font-weight: bold;
+}
+</style>
+<div id="{{thisTag|slugify}}" class="fake-target"></div>
+<p style="font-style: italic;" class="tag-{{thisTag|slugify}}">Posts tagged <b>{{thisTag}}</b>:</p>
+{% endfor %}
 <div class="posts">
-{% assign thisTagsPosts = site.posts | where_exp: "post", "post.tags contains thisTag" %}
-{% for post in thisTagsPosts %}
+{% for post in site.posts %}
 	{% include article-preview.html %}
 {% endfor %}
 </div>
-</div>
-{% endfor %}
 <div id="tag-default">
 <h2>Tag not found</h2>
 <p>A tag was not specified or it was not found. Try going <a href="/{{site.baseurl}}">back to the homepage</a>.</p>

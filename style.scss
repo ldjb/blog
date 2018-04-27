@@ -296,36 +296,24 @@ footer {
   display: none;
 }
 
+/*** / ***/
 div#archive-link {
 	background-color: $ldjbDarkerBlue;
 	padding: 1em;
 	text-align: center;
 }
 
-div.tag-posts {
-	display: none;
-}
-
-:target+div.tag-posts {
-	display: inherit;
-}
-
-:target~#tag-default {
-	display: none;
-}
-
-div.fake-target, #{{site.fun}} {
+/*** /tag ***/
+div.fake-target {
 	position: absolute;
 	top: 0;
-	left: 0;
 }
 
-div#{{site.fun}}:target ~ div.posts article.future,
-div#{{site.fun}}:target ~ div.tag-posts,
-div#{{site.fun}}:target ~ div.tag-posts div.posts article.future {
-	display: block;
+div.fake-target:target~#tag-default {
+	display: none;
 }
 
+/*** /archive ***/
 div#{{site.fun}}:target ~ ul li.future {
 	display: list-item;
 }
