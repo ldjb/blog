@@ -4,8 +4,6 @@ title: Constants can change!
 tags: [programming]
 excerpt_separator: <!-- more -->
 ---
-
-## Constants can change!
 A common misconception I've noticed amongst fellow programmers is the idea that constants can never be modified. Whilst it is true that a constant's value may never change *during runtime*, it may certainly be appropriate for a programmer to modify it *in the source code*.
 
 <!-- more -->
