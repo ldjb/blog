@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-<div id="{{site.fun}}"></div>
+<div id="{{site.fun}}" class="fake-target"></div>
 <ul>
 {% for post in site.posts %}
   <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F" }})</li>
