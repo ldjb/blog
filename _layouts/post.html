@@ -25,3 +25,7 @@ layout: default
     {{ content | replace: '<!-- more -->', '<div id="more"></div>' }}
   </div>
 </article>
+<script src="/lib/anchor.min.js"></script>
+<script>
+	anchors.add("div.entry h3, div.entry h4, div.entry h5, div.entry h6");
+</script>
