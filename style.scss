@@ -319,6 +319,10 @@ div#archive-link {
 	text-align: center;
 }
 
+div#{{site.fun}}:target ~ div.posts article.future {
+	display: inherit;
+}
+
 /*** /tag ***/
 div.fake-target {
 	position: absolute;
