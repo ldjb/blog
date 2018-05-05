@@ -112,6 +112,10 @@ img {
   max-width: 100%;
 }
 
+div.entry img {
+	max-height: 16em;
+}
+
 sup {
   font-size: smaller;
   line-height: normal;
