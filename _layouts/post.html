@@ -29,3 +29,17 @@ layout: default
 <script>
 	anchors.add("div.entry h3, div.entry h4, div.entry h5, div.entry h6");
 </script>
+<script>
+document.querySelectorAll("div.entry img").forEach(
+	img => {
+		img.onclick = _ => {
+			location = img.src;
+		};
+	}
+);
+</script>
+<style>
+div.entry img {
+	cursor: pointer;
+}
+</style>
