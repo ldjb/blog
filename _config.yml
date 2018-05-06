@@ -72,6 +72,9 @@ exclude:
   - README.md
   - CNAME
 
+plugins:
+  - jekyll-redirect-from
+
 future: true
 
 fun: xyzzy
