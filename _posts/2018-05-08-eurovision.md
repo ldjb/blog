@@ -24,10 +24,11 @@ Absolutely cringeworthy song. Nice suit, though.
 Not unpleasant.
 
 ### 4. Belgium
+Weird song. Weird performance. Weird staging. I'm not sure I liked it, exactly, but it was interesting, at least.
 
-<!--
 ### 5. Czech Republic
 
+<!--
 ### 6. Lithuania
 
 ### 7. Israel
