@@ -14,4 +14,6 @@ I am currently live-blogging my thoughts on each of the acts.
 
 ### Azerbaijan
 
+Not a bad song, but not a particularly interesting one, either. Some nice staging and choreography, but not exceptional.
+
 {% include live.js %}
