@@ -48,7 +48,7 @@ Not bad. Not brilliant.
 Yet another dull entry.
 
 ### 12. Croatia
-
+Again, not terrible. But nothing special.
 
 <!--
 ### 13. Austria
