@@ -1,6 +1,6 @@
 ---
 title: "Live blog: Eurovision Semi-Final 1"
-tags: [TV, music, live]
+tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
 ---
 
@@ -66,9 +66,8 @@ Back to the bland.
 Quite a decent song. Nice hat, too!
 
 ### 18. Ireland
+Choreography was decent, but the song was very drab.
 
-<!--
 ### 19. Cyprus
--->
 
 {% include live.js %}
