@@ -35,11 +35,12 @@ Boring song, but the way video clips of …seemingly random people… were overl
 ### 7. Israel
 Everything about this was insane. I… kinda liked it.
 
-<!--
 ### 8. Belarus
+Bland song, but I like what was done with the rose motif.
 
 ### 9. Estonia
 
+<!--
 ### 10. Bulgaria
 
 ### 11. F.Y.R. Macedonia
