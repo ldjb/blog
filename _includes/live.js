@@ -19,6 +19,6 @@
 			)
 		);
 	};
-	setInterval(fetchAndUpdate, 10000);
+	setInterval(fetchAndUpdate, 30000);
 })();
 </script>
