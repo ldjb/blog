@@ -53,9 +53,10 @@ Again, not terrible. But nothing special.
 ### 13. Austria
 Pleasant song. Interesting way they had the singer on a platform. Otherwise largely forgettable.
 
-<!--
 ### 14. Greece
+Not outstanding, but it's nice to have a non-English song for a change.
 
+<!--
 ### 15. Finland
 
 ### 16. Armenia
