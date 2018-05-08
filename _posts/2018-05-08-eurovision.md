@@ -33,6 +33,7 @@ Not really my sort of music, but the performance was crazy enough that this has 
 Boring song, but the way video clips of …seemingly random people… were overlayed on top of the live performance was quite interesting.
 
 ### 7. Israel
+Everything about this was insane. I… kinda liked it.
 
 <!--
 ### 8. Belarus
