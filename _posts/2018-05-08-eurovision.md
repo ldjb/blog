@@ -30,6 +30,7 @@ Weird song. Weird performance. Weird staging. I'm not sure I liked it, exactly, 
 Not really my sort of music, but the performance was crazy enough that this has got to be my favourite of the evening so far.
 
 ### 6. Lithuania
+Boring song, but the way video clips of …seemingly random people… were overlayed on top of the live performance was quite interesting.
 <!--
 ### 7. Israel
 
