@@ -1,16 +1,12 @@
 ---
-title: "Live blog: Eurovision Semi-Final 1"
+title: "Eurovision Semi-Final 1"
 tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
 ---
 
-The first semi-final of 2018's Eurovision Song Contest has started!
-
-I am currently live-blogging my thoughts on each of the acts.
+Here are my thoughts on each of the acts in the first semi-final of 2018's Eurovision Song Contest.
 
 <!-- more -->
-
-**This page will automatically update, with new content being added at the bottom.**
 
 ### 1. Azerbaijan
 
@@ -71,4 +67,4 @@ Choreography was decent, but the song was very drab.
 ### 19. Cyprus
 One of the stronger acts of the evening. Song was alright, and the performance and choreography were good.
 
-{% include live.js %}
+**This live blog has now ended.**
