@@ -63,10 +63,11 @@ A relatively tame but very competent entry. Probably one of my favourites.
 Back to the bland.
 
 ### 17. Switzerland
+Quite a decent song. Nice hat, too!
 
-<!--
 ### 18. Ireland
 
+<!--
 ### 19. Cyprus
 -->
 
