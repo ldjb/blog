@@ -69,5 +69,6 @@ Quite a decent song. Nice hat, too!
 Choreography was decent, but the song was very drab.
 
 ### 19. Cyprus
+One of the stronger acts of the evening. Song was alright, and the performance and choreography were good.
 
 {% include live.js %}
