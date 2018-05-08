@@ -6,7 +6,7 @@
 		document.querySelector("div.entry").innerHTML = updated.querySelector("div.entry").innerHTML;
 	};
 	let fetchAndUpdate = _ => {
-		fetch("")
+		fetch("?" + Date.now())
 			.then(response => response.text()
 				.then(text => update(text)
 			)
