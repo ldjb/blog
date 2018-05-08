@@ -18,4 +18,6 @@ Not a bad song, but not a particularly interesting one, either. Some nice stagin
 
 ### 2. Iceland
 
+Absolutely cringeworthy song. Nice suit, though.
+
 {% include live.js %}
