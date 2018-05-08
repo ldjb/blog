@@ -39,12 +39,14 @@ Everything about this was insane. I… kinda liked it.
 Bland song, but I like what was done with the rose motif.
 
 ### 9. Estonia
+Boring.
 
-<!--
 ### 10. Bulgaria
+Not bad. Not brilliant.
 
 ### 11. F.Y.R. Macedonia
 
+<!--
 ### 12. Croatia
 
 ### 13. Austria
