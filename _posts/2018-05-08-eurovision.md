@@ -50,9 +50,10 @@ Yet another dull entry.
 ### 12. Croatia
 Again, not terrible. But nothing special.
 
-<!--
 ### 13. Austria
+Pleasant song. Interesting way they had the singer on a platform. Otherwise largely forgettable.
 
+<!--
 ### 14. Greece
 
 ### 15. Finland
