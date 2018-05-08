@@ -5,7 +5,7 @@
 		updated.innerHTML = html;
 		document.querySelector("div.entry").innerHTML = updated.querySelector("div.entry").innerHTML;
 		if (innerHeight + scrollY >= document.body.offsetHeight) {
-		    scrollTo({
+		    window.scrollTo({
 			top: document.body.scrollHeight,
 			behavior: "smooth"
 			});
