@@ -21,10 +21,11 @@ Not a bad song, but not a particularly interesting one, either. Some nice stagin
 Absolutely cringeworthy song. Nice suit, though.
 
 ### 3. Albania
+Not unpleasant.
 
-<!--
 ### 4. Belgium
 
+<!--
 ### 5. Czech Republic
 
 ### 6. Lithuania
