@@ -20,4 +20,40 @@ Not a bad song, but not a particularly interesting one, either. Some nice stagin
 
 Absolutely cringeworthy song. Nice suit, though.
 
+### 3. Albania
+
+<!--
+### 4. Belgium
+
+### 5. Czech Republic
+
+### 6. Lithuania
+
+### 7. Israel
+
+### 8. Belarus
+
+### 9. Estonia
+
+### 10. Bulgaria
+
+### 11. F.Y.R. Macedonia
+
+### 12. Croatia
+
+### 13. Austria
+
+### 14. Greece
+
+### 15. Finland
+
+### 16. Armenia
+
+### 17. Switzerland
+
+### 18. Ireland
+
+### 19. Cyprus
+-->
+
 {% include live.js %}
