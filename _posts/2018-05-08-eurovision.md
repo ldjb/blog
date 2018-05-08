@@ -4,9 +4,9 @@ tags: [TV, music, live]
 excerpt_separator: <!-- more -->
 ---
 
-The first semi-final of 2018's Eurovision Song Contest starts at 8pm UK time.
+The first semi-final of 2018's Eurovision Song Contest has started!
 
-I plan to live-blog my thoughts on each of the acts.
+I am currently live-blogging my thoughts on each of the acts.
 
 <!-- more -->
 
