@@ -60,10 +60,11 @@ Not outstanding, but it's nice to have a non-English song for a change.
 A relatively tame but very competent entry. Probably one of my favourites.
 
 ### 16. Armenia
+Back to the bland.
 
-<!--
 ### 17. Switzerland
 
+<!--
 ### 18. Ireland
 
 ### 19. Cyprus
