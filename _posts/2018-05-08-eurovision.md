@@ -27,10 +27,10 @@ Not unpleasant.
 Weird song. Weird performance. Weird staging. I'm not sure I liked it, exactly, but it was interesting, at least.
 
 ### 5. Czech Republic
+Not really my sort of music, but the performance was crazy enough that this has got to be my favourite of the evening so far.
 
-<!--
 ### 6. Lithuania
-
+<!--
 ### 7. Israel
 
 ### 8. Belarus
