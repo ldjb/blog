@@ -12,8 +12,10 @@ I am currently live-blogging my thoughts on each of the acts.
 
 **This page will automatically update, with new content being added at the bottom.**
 
-### Azerbaijan
+### 1. Azerbaijan
 
 Not a bad song, but not a particularly interesting one, either. Some nice staging and choreography, but not exceptional.
+
+### 2. Iceland
 
 {% include live.js %}
