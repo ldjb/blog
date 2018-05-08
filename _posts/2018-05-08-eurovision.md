@@ -56,11 +56,12 @@ Pleasant song. Interesting way they had the singer on a platform. Otherwise larg
 ### 14. Greece
 Not outstanding, but it's nice to have a non-English song for a change.
 
-<!--
 ### 15. Finland
+A relatively tame but very competent entry. Probably one of my favourites.
 
 ### 16. Armenia
 
+<!--
 ### 17. Switzerland
 
 ### 18. Ireland
