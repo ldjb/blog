@@ -13,6 +13,12 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    {% if page.redirect %}
+    <meta http-equiv="refresh" content="0; url={{page.redirect.to}}">
+    <script>location="{{page.redirect.to}}";</script>
+    <link rel="canonical" href="{{page.redirect.to}}">
+    <meta name="robots" content="noindex">
+    {% endif %}
   </head>
 
   <body>
