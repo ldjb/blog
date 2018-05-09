@@ -2,6 +2,7 @@
 title: "Eurovision Semi-Final 1"
 tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
+feed_id: https://blog.ldjb.uk/eurovision
 ---
 
 Here are my thoughts on each of the acts in the first semi-final of 2018's Eurovision Song Contest.

@@ -16,7 +16,7 @@ redirect_from: /rss
 	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | escape }}" />
 	<published>{{ post.date | date: "%FT%TZ" }}</published>
 	<updated>{{ post.date | date: "%FT%TZ" }}</updated>
-	<id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
+	<id>{% if post.feed_id %}{{ post.feed_id }}{% else %}{{ site.url }}{{ site.baseurl }}{{ post.id }}{% endif %}</id>
 	<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.content | escape }}</content>
 	<author><name>{{ site.name }}</name></author>
 	<summary type="html">{{ post.excerpt | escape }}</summary>
