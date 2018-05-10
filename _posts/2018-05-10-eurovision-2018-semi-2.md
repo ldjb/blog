@@ -13,9 +13,10 @@ excerpt_separator: <!-- more -->
 ### 1. Norway
 Funky music with gimmicky visuals.
 
-<!--
 ### 2. Romania
+Unpleasant song with creepy mannequins.
 
+<!--
 ### 3. Serbia
 
 ### 4. San Marino
