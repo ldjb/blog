@@ -46,9 +46,10 @@ My ears hurt… The lighting was nice, though.
 ### 12. Malta
 Weird, but I quite liked it!
 
-<!--
 ### 13. Hungary
+My ears hurt again…
 
+<!--
 ### 14. Latvia
 
 ### 15. Sweden
