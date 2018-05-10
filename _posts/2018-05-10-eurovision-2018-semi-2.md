@@ -4,12 +4,48 @@ tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
 ---
 
-Here are my thoughts on each of the acts in the second semi-final of 2018's Eurovision Song Contest.
-
-**This live blog will commence at 8 pm UK time.**
+**Now live:** Here are my thoughts on each of the acts in the second semi-final of 2018's Eurovision Song Contest.
 
 <!-- more -->
 
 **New content will automatically appear at the bottom of this page.**
 
+### 1. Norway
+Funky music with gimmicky visuals.
+
+<!--
+### 2. Romania
+
+### 3. Serbia
+
+### 4. San Marino
+
+### 5. Denmark
+
+### 6. Russia
+
+### 7. Moldova
+
+### 8. Netherlands
+
+### 9. Australia
+
+### 10. Georgia
+
+### 11. Poland
+
+### 12. Malta
+
+### 13. Hungary
+
+### 14. Latvia
+
+### 15. Sweden
+
+### 16. Montenegro
+
+### 17. Slovenia
+
+### 18. Ukraine
+-->
 {% include live.js %}
