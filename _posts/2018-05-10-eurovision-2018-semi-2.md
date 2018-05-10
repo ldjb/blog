@@ -58,9 +58,10 @@ It was okay. Quite nice, visually.
 ### 16. Montenegro
 Another fairly boring song.
 
-<!--
 ### 17. Slovenia
+Not very pleasant, but it had style, at least. Oh, and the fake technical issues were so cringeworthy…
 
+<!--
 ### 18. Ukraine
 -->
 {% include live.js %}
