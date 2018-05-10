@@ -11,3 +11,5 @@ Here are my thoughts on each of the acts in the second semi-final of 2018's Euro
 <!-- more -->
 
 **New content will automatically appear at the bottom of this page.**
+
+{% include live.js %}
