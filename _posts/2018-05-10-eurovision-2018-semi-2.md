@@ -40,9 +40,10 @@ Australia is totally part of Europe, right? Anyway, the song was bland, but the 
 ### 10. Georgia
 A mediocre performance.
 
-<!--
 ### 11. Poland
+My ears hurt… The lighting was nice, though.
 
+<!--
 ### 12. Malta
 
 ### 13. Hungary
