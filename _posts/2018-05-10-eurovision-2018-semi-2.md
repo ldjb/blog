@@ -25,9 +25,10 @@ The dancing robots were cool. It's a shame the song was painful to listen to.
 ### 5. Denmark
 This definitely had Viking vibes and certainly was not bad. Though not outstanding either.
 
-<!--
 ### 6. Russia
+I didn't care for the song, but the staging and choreography was… pleasant.
 
+<!--
 ### 7. Moldova
 
 ### 8. Netherlands
