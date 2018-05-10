@@ -34,9 +34,10 @@ Moldova always puts on a good show, and this year was no different. The song was
 ### 8. Netherlands
 Pretty good song, though what was with all the crazy dancing?! It did not look pleasant.
 
-<!--
 ### 9. Australia
+Australia is totally part of Europe, right? Anyway, the song was bland, but the staging and choreography were pretty good.
 
+<!--
 ### 10. Georgia
 
 ### 11. Poland
