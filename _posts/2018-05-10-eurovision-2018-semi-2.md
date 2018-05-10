@@ -22,9 +22,10 @@ Started off like a traditional Serbian song, which was promptly ruined when it b
 ### 4. San Marino
 The dancing robots were cool. It's a shame the song was painful to listen to.
 
-<!--
 ### 5. Denmark
+This definitely had Viking vibes and certainly was not bad. Though not outstanding either.
 
+<!--
 ### 6. Russia
 
 ### 7. Moldova
