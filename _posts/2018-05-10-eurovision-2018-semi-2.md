@@ -19,9 +19,10 @@ Unpleasant song with creepy mannequins.
 ### 3. Serbia
 Started off like a traditional Serbian song, which was promptly ruined when it became a pop song.
 
-<!--
 ### 4. San Marino
+The dancing robots were cool. It's a shame the song was painful to listen to.
 
+<!--
 ### 5. Denmark
 
 ### 6. Russia
