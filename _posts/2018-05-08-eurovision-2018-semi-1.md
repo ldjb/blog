@@ -1,5 +1,5 @@
 ---
-title: "Eurovision Semi-Final 1"
+title: "Eurovision 2018, Semi-Final 1"
 tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
 feed_id: "https://blog.ldjb.uk/eurovision"
