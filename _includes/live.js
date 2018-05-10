@@ -1,5 +1,7 @@
 <script>
 (_ => {
+	const REFRESH_INTERVAL = 30000;
+
 	let update = html => {
 		let updated = document.createElement("html");
 		updated.innerHTML = html;
@@ -13,12 +15,12 @@
 		}
 	};
 	let fetchAndUpdate = _ => {
-		fetch("?" + Date.now())
+		fetch("?" + REFRESH_INTERVAL + "*" + Math.floor(Date.now()/REFRESH_INTERVAL))
 			.then(response => response.text()
 				.then(text => update(text)
 			)
 		);
 	};
-	setInterval(fetchAndUpdate, 30000);
+	setInterval(fetchAndUpdate, REFRESH_INTERVAL);
 })();
 </script>
