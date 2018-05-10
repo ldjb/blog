@@ -37,9 +37,10 @@ Pretty good song, though what was with all the crazy dancing?! It did not look p
 ### 9. Australia
 Australia is totally part of Europe, right? Anyway, the song was bland, but the staging and choreography were pretty good.
 
-<!--
 ### 10. Georgia
+A mediocre performance.
 
+<!--
 ### 11. Poland
 
 ### 12. Malta
