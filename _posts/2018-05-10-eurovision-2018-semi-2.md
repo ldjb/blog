@@ -49,11 +49,13 @@ Weird, but I quite liked it!
 ### 13. Hungary
 My ears hurt again…
 
-<!--
 ### 14. Latvia
+Dull.
 
 ### 15. Sweden
+It was okay. Quite nice, visually.
 
+<!--
 ### 16. Montenegro
 
 ### 17. Slovenia
