@@ -16,9 +16,10 @@ Funky music with gimmicky visuals.
 ### 2. Romania
 Unpleasant song with creepy mannequins.
 
-<!--
 ### 3. Serbia
+Started off like a traditional Serbian song, which was promptly ruined when it became a pop song.
 
+<!--
 ### 4. San Marino
 
 ### 5. Denmark
