@@ -67,19 +67,19 @@ If [~~JavaScript~~ ECMAScript is a Lisp](https://www.crockford.com/javascript/ja
 
 ```js
 let int2fb = int => {
-	switch ([int % 3 === 0, int % 5 === 0].toString()) {
-		case "true,true": return "FizzBuzz";
-		case "true,false": return "Fizz";
-		case "false,true": return "Buzz";
-		default: return int;}}
+  switch ([int % 3 === 0, int % 5 === 0].toString()) {
+    case "true,true": return "FizzBuzz";
+    case "true,false": return "Fizz";
+    case "false,true": return "Buzz";
+    default: return int;}}
 
 let fizzbuzz = n => {
-	if (n < 1) {
-		return [];}
-	else {
-		let arrRecursed = fizzbuzz(n - 1);
-		arrRecursed.push(int2fb(n));
-		return arrRecursed;}}
+  if (n < 1) {
+    return [];}
+  else {
+    let arrRecursed = fizzbuzz(n - 1);
+    arrRecursed.push(int2fb(n));
+    return arrRecursed;}}
 ```
 
 Okay, so ECMAScript doesn't really have an equivalent to Racket's `match` construct, but we can do something similar by converting an array to a string and comparing the result with other strings. And `Array.prototype.push` returns the length of the array rather than the array itself for some bizarre reason, which makes a bit of a mess. But hey, it works:
