@@ -10,6 +10,16 @@ pre.highlight {
   overflow: auto;
 }
 
+pre.highlight td.rouge-code pre {
+  white-space: pre-wrap;
+}
+
+pre.highlight td.rouge-gutter {
+  padding: 0 1em 0 0;
+  color: #ccc;
+  text-align: right;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
