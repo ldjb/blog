@@ -33,13 +33,18 @@ layout: default
 document.querySelectorAll("div.entry img").forEach(
 	img => {
 		img.onclick = _ => {
-			location = img.src;
+			img.classList.toggle("zoom");
 		};
 	}
 );
 </script>
 <style>
 div.entry img {
-	cursor: pointer;
+	cursor: zoom-in;
+}
+div.entry img.zoom {
+	max-height: 100%;
+	max-width: 100%;
+	cursor: zoom-out;
 }
 </style>
