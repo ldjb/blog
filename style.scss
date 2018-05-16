@@ -313,10 +313,11 @@ a#skip-nav:focus {
 }
 
 /*** / ***/
-div#archive-link {
+a#archive-link {
 	background-color: $ldjbDarkerBlue;
 	padding: 1em;
 	text-align: center;
+	display: block;
 }
 
 div#{{site.fun}}:target ~ div.posts article.future {

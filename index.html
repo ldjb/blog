@@ -13,7 +13,5 @@ layout: default
 </div>
 {% include future.js %}
 {% if numPublishedPosts > 10 %}
-<div id="archive-link">
-	<a href="{{ site.baseurl }}{% link archive.html %}">Find older posts in the archive</a>
-</div>
+<a href="{{ site.baseurl }}{% link archive.html %}" id="archive-link">Find older posts in the archive</a>
 {% endif %}
