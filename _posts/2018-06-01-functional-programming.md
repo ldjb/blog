@@ -35,6 +35,7 @@ Actually, this works exactly the same way when doing functional programming. For
 > f(-2)
 -1
 ```
+{:.console}
 
 Defining this function is different from how we do it in maths, but it's relatively intuitive:
 
@@ -68,6 +69,7 @@ So now we can call the function like so:
 > (f -2)
 -1
 ```
+{:.console}
 
 And that's functional programming in a nutshell! That wasn't so bad, was it? Now, let's solve some of the problems given on the BBC Bitesize page using Racket:
 
@@ -80,13 +82,16 @@ Find f(-2) and g(3)
 
 (define (g x)
   (- (expt x 2) 1))
+```
 
+```racket
 > (f -2)
 -4
 
 > (g 3)
 8
 ```
+{:.console}
 
 > f(x) = 2x + 3 and g(x) = x<sup>2</sup>  
 Find fg(4), gf(4) and ff(4)
@@ -97,7 +102,9 @@ Find fg(4), gf(4) and ff(4)
 
 (define (g x)
   (expt x 2))
+```
 
+```racket
 > (f (g 4))
 35
 
@@ -107,5 +114,6 @@ Find fg(4), gf(4) and ff(4)
 > (f (f 4))
 25
 ```
+{:.console}
 
 Piece of cake. :-)

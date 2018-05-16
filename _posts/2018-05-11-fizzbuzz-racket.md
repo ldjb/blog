@@ -36,6 +36,7 @@ We then determine which pattern the list matches against. If both items in the l
 > (int->fb 64)
 64
 ```
+{:.console}
 
 It works! Now we need to find a way to create a list of the first n numbers. We can define a function `fizzbuzz` that does this:
 
@@ -60,6 +61,7 @@ Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58
 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz
 97 98 Fizz Buzz)
 ```
+{:.console}
 
 ### Bonus: FizzBuzz in ECMAScript using "pattern matching"
 
@@ -94,3 +96,4 @@ Okay, so ECMAScript doesn't really have an equivalent to Racket's `match` constr
 "Fizz",79,"Buzz","Fizz",82,83,"Fizz","Buzz",86,"Fizz",88,89,"FizzBuzz",91,92,
 "Fizz",94,"Buzz","Fizz",97,98,"Fizz","Buzz"]
 ```
+{:.console}
