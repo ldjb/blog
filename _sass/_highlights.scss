@@ -11,6 +11,10 @@ pre.highlight {
   font-size: 80%;
 }
 
+.console pre.highlight {
+  filter: invert(1);
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
