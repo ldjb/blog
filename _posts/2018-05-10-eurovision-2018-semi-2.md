@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Eurovision 2018, Semi-Final 2"
 tags: [Eurovision, TV, music, live]
 excerpt_separator: <!-- more -->
