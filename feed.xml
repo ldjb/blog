@@ -10,7 +10,7 @@ redirect_from: /rss
 <title type="html">{{ site.name }}</title>
 <subtitle>{{ site.description }}</subtitle>
 {% for post in site.posts %}
-	{% if post.date <= site.time %}
+	{% if post.date <= site.time and post.imported != true %}
 	<entry>
 	<title type="html">{{ post.title | escape }}</title>
 	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | escape }}" />
