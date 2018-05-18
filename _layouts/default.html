@@ -15,6 +15,9 @@
     <link rel="canonical" href="{{page.redirect.to}}">
     <meta name="robots" content="noindex">
     {% endif %}
+    {% if page.url == "/tag" %}
+    <meta name="robots" content="noindex, follow">
+    {% endif %}
   </head>
 
   <body>
