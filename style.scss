@@ -118,6 +118,10 @@ div.entry img {
 	max-height: 16em;
 }
 
+div.entry #more:target {
+	border: 1px dashed $ldjbDarkerBlue;
+}
+
 sup {
   font-size: smaller;
   line-height: normal;
