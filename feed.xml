@@ -6,7 +6,7 @@ redirect_from: /rss
 <link href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="self" type="application/atom+xml" />
 <link href="{{ site.url }}{{ site.baseurl }}" rel="alternate" type="text/html" />
 <updated>{{ site.time | date: "%FT%TZ" }}</updated>
-<id>{{ site.url }}{{ site.baseurl }}</id>
+<id>https://blog.ldjb.uk</id>
 <title type="html">{{ site.name }}</title>
 <subtitle>{{ site.description }}</subtitle>
 {% for post in site.posts %}
@@ -16,7 +16,7 @@ redirect_from: /rss
 	<link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | escape }}" />
 	<published>{{ post.date | date: "%FT%TZ" }}</published>
 	<updated>{{ post.date | date: "%FT%TZ" }}</updated>
-	<id>{% if post.feed_id %}{{ post.feed_id }}{% else %}{{ site.url }}{{ site.baseurl }}{{ post.id }}{% endif %}</id>
+	<id>{% if post.feed_id %}{{ post.feed_id }}{% else %}https://blog.ldjb.uk{{ site.baseurl }}{{ post.id }}{% endif %}</id>
 	<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.content | escape }}</content>
 	<author><name>{{ site.name }}</name></author>
 	<summary type="html">{{ post.excerpt | escape }}</summary>
