@@ -3,6 +3,9 @@ layout: post
 title: Hello, Jekyll Now!
 tags: [meta, technology]
 excerpt_separator: <!-- more -->
+redirect_from:
+  - /2018/04/09/8462023
+  - /2018/04
 ---
 
 *This is an updated version of a previously published post.*
