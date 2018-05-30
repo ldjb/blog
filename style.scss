@@ -108,9 +108,12 @@ strong, b {
 }
 
 img {
+  max-width: 100%;
+}
+
+article img {
   display: block;
   margin: auto;
-  max-width: 100%;
 }
 
 div.entry img {
