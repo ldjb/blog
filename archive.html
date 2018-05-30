@@ -6,7 +6,7 @@ title: Archive
 <div id="{{site.fun}}" class="fake-target"></div>
 <ul>
 {% for post in site.posts %}
-  <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-date">({{ post.date | date: "%F" }})</span></li>
+  <li {% if post.date > site.time %}class="future" {% endif %}data-pubdate="{{post.date|date: "%F"}}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-date">(<time>{{ post.date | date: "%F" }}</time>)</span></li>
 {% endfor %}
 <!-- 	<li><a href="https://medium.com/@ldjb/how-to-tweet-your-toots-with-php-and-ifttt-2ee891b9cf3e">How to tweet your toots with PHP and IFTTT</a> (2017-04-28)</li> -->
 <!-- 	<li><a href="http://tumblr.ldjb.uk/post/126174584429/when-marnie-was-there">When Marnie Was There</a> (2015-08-08)</li> -->

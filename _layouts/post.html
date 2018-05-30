@@ -4,6 +4,7 @@ layout: default
 
 <article class="post">
   <div class="date">
+    <time class="date" datetime="{{ post.date | date: '%F' }}">
     {{ page.date | date: "%A" }}
     {% assign d = page.date | date: "%-d" %}
     {% case d %}
@@ -13,6 +14,7 @@ layout: default
       {% else %}{{ d }}<sup>th</sup>
     {% endcase %}
     {{ page.date | date: "%B %Y" }}
+    </time>
     {% assign numTags = page.tags | size %}
     {% if numTags > 0 %}
     in
